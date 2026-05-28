@@ -1,6 +1,6 @@
 # Multi-Agent Research Assistant
 
-A no-Docker Python research assistant for uploading documents, building a local searchable knowledge base, and answering questions with citations through a multi-agent RAG workflow.
+A Python research assistant for uploading documents, building a local searchable knowledge base, and answering questions with citations through a multi-agent RAG workflow.
 
 The system supports:
 
