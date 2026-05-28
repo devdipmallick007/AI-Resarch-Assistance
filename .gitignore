@@ -1,0 +1,16 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+streamlit*.log
+logs/*.log
+data/uploaded_docs/*
+!data/uploaded_docs/.gitkeep
+data/faiss_index/*
+!data/faiss_index/.gitkeep
+docs/final_report.pdf

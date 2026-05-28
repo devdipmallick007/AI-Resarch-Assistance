@@ -1,0 +1,397 @@
+2026-05-28 16:06:22,630 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 16:06:22,631 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 16:06:30,256 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10430 | vector_store=data\faiss_index\store.json
+2026-05-28 16:06:30,257 | INFO | __main__ | Streamlit workflow created | indexed_sections=10430
+2026-05-28 16:06:30,272 | INFO | __main__ | Streamlit research requested | chars=22 | k=10
+2026-05-28 16:06:30,273 | INFO | app.workflow.langgraph_flow | Research query started | chars=22 | k=10
+2026-05-28 16:06:30,274 | INFO | app.workflow.langgraph_flow | Query refined | original='what is list in python' | refined='what is list in python'
+2026-05-28 16:06:34,231 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['Tutorial_EDIT.pdf#9996', 'Tutorial_EDIT.pdf#10332', 'Tutorial_EDIT.pdf#10066']
+2026-05-28 16:06:34,525 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:06:38,321 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=74 | citations=10
+2026-05-28 16:06:38,322 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 16:06:52,219 | INFO | __main__ | Streamlit research requested | chars=23 | k=10
+2026-05-28 16:06:52,220 | INFO | app.workflow.langgraph_flow | Research query started | chars=23 | k=10
+2026-05-28 16:06:52,220 | INFO | app.workflow.langgraph_flow | Query refined | original='what is tuple in python' | refined='what is tuple in python'
+2026-05-28 16:06:58,359 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['Tutorial_EDIT.pdf#10080', 'Tutorial_EDIT.pdf#10079', 'Tutorial_EDIT.pdf#10083']
+2026-05-28 16:06:58,360 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:06:59,507 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=618 | citations=10
+2026-05-28 16:06:59,508 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 16:07:10,514 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 16:07:10,515 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 16:07:14,890 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10430 | vector_store=data\faiss_index\store.json
+2026-05-28 16:07:17,480 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 16:07:17,481 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 16:07:18,207 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10430 | vector_store=data\faiss_index\store.json
+2026-05-28 16:07:21,293 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10430 | vector_store=data\faiss_index\store.json
+2026-05-28 16:07:21,294 | INFO | __main__ | Streamlit workflow created | indexed_sections=10430
+2026-05-28 16:07:27,963 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 16:07:40,817 | INFO | __main__ | Streamlit upload saved | filename=Fundamentals_of_Marketing.pdf | bytes=1510734
+2026-05-28 16:07:40,818 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf
+2026-05-28 16:07:50,032 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf | documents=1 | chunks=471
+2026-05-28 16:07:50,499 | INFO | app.workflow.langgraph_flow | Indexed 471 chunks from D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf
+2026-05-28 16:07:56,659 | INFO | __main__ | Streamlit upload saved | filename=Principles-of-Marketing-1613761555.pdf | bytes=31576913
+2026-05-28 16:07:56,663 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf
+2026-05-28 16:08:05,846 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf | documents=1 | chunks=1539
+2026-05-28 16:08:06,905 | INFO | app.workflow.langgraph_flow | Indexed 1539 chunks from D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf
+2026-05-28 16:08:06,907 | INFO | __main__ | Streamlit upload indexing complete | files=2 | chunks=2010
+2026-05-28 16:08:22,910 | INFO | __main__ | Streamlit research requested | chars=200 | k=5
+2026-05-28 16:08:22,910 | INFO | app.workflow.langgraph_flow | Research query started | chars=200 | k=5
+2026-05-28 16:08:22,911 | INFO | app.workflow.langgraph_flow | Query refined | original='Evaluate the relationship between the "Product Life Cycle" (PLC) and strategic pricing. How must a firm re-architect its pricing strategy as it transitions from the Growth stage to the Maturity stage?' | refined='Evaluate the relationship between the "Product Life Cycle" (PLC) and strategic pricing. How must a firm re-architect its pricing strategy as it transitions from the Growth stage to the Maturity stage?'
+2026-05-28 16:08:23,962 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1883', 'Principles-of-Marketing-1613761555.pdf#1864', 'Principles-of-Marketing-1613761555.pdf#1123']
+2026-05-28 16:08:23,963 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:08:25,011 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=1893 | citations=5
+2026-05-28 16:08:25,012 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:08:49,040 | INFO | __main__ | Streamlit research requested | chars=192 | k=5
+2026-05-28 16:08:49,041 | INFO | app.workflow.langgraph_flow | Research query started | chars=192 | k=5
+2026-05-28 16:08:49,045 | INFO | app.workflow.langgraph_flow | Query refined | original='Compare "Integrated Marketing Communications" (IMC) with traditional fragmented promotional strategies. Why does the IMC approach necessitate a higher degree of organizational synchronization?' | refined='Compare "Integrated Marketing Communications" (IMC) with traditional fragmented promotional strategies. Why does the IMC approach necessitate a higher degree of organizational synchronization?'
+2026-05-28 16:08:50,166 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#238', 'Fundamentals_of_Marketing.pdf#213', 'Principles-of-Marketing-1613761555.pdf#1490']
+2026-05-28 16:08:50,167 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:08:51,330 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=1892 | citations=5
+2026-05-28 16:08:51,332 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:09:35,715 | INFO | __main__ | Streamlit research requested | chars=116 | k=5
+2026-05-28 16:09:35,715 | INFO | app.workflow.langgraph_flow | Research query started | chars=116 | k=5
+2026-05-28 16:09:35,716 | INFO | app.workflow.langgraph_flow | Query refined | original='How do demographic, psychographic, and behavioural variables work together in a multi-layered segmentation strategy?' | refined='How do demographic, psychographic, and behavioural variables work together in a multi-layered segmentation strategy?'
+2026-05-28 16:09:36,711 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#469', 'Fundamentals_of_Marketing.pdf#55', 'Fundamentals_of_Marketing.pdf#67']
+2026-05-28 16:09:36,712 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:09:37,717 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=977 | citations=5
+2026-05-28 16:09:37,717 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:10:35,649 | INFO | __main__ | Streamlit research requested | chars=453 | k=5
+2026-05-28 16:10:35,650 | INFO | app.workflow.langgraph_flow | Research query started | chars=453 | k=5
+2026-05-28 16:10:35,651 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 6: Branding and Packaging\nScenario: A startup is launching an organic shampoo. They have two packaging options: a premium, aesthetic glass bottle (Primary Packaging) or a standard plastic pouch (Primary Packaging).\n\nQuestion: Considering the "Functions of Packaging" (Protection, Information, Promotion, Convenience, Sustainability), how would you choose between these two options if your "Brand Positioning" is "Value-Based" vs. "Lifestyle-Based"?' | refined='Unit 6: Branding and Packaging Scenario: A startup is launching an organic shampoo. They have two packaging options: a premium, aesthetic glass bottle (Primary Packaging) or a standard plastic pouch (Primary Packaging). Question: Considering the "Functions of Packaging" (Protection, Information, Promotion, Convenience, Sustainability), how would you choose between these two options if your "Brand Positioning" is "Value-Based" vs. "Lifestyle-Based"?'
+2026-05-28 16:10:36,814 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1035', 'Principles-of-Marketing-1613761555.pdf#1050', 'Principles-of-Marketing-1613761555.pdf#1820']
+2026-05-28 16:10:36,815 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:10:38,010 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=916 | citations=5
+2026-05-28 16:10:38,011 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:11:10,726 | INFO | __main__ | Streamlit research requested | chars=415 | k=5
+2026-05-28 16:11:10,727 | INFO | app.workflow.langgraph_flow | Research query started | chars=415 | k=5
+2026-05-28 16:11:10,728 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 7: Pricing Strategies\nScenario: A new airline enters the competitive Indian market. They want to gain significant market share quickly from established players.\n\nQuestion: Would Penetration Pricing or Skimming Pricing be more effective for this objective? Furthermore, if they decide to implement Dynamic Pricing during the festive season, what risks does this pose to their "Customer Perception" of the brand?' | refined='Unit 7: Pricing Strategies Scenario: A new airline enters the competitive Indian market. They want to gain significant market share quickly from established players. Question: Would Penetration Pricing or Skimming Pricing be more effective for this objective? Furthermore, if they decide to implement Dynamic Pricing during the festive season, what risks does this pose to their "Customer Perception" of the brand?'
+2026-05-28 16:11:11,923 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#200', 'Fundamentals_of_Marketing.pdf#420', 'Principles-of-Marketing-1613761555.pdf#1536']
+2026-05-28 16:11:11,923 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:11:12,949 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=714 | citations=5
+2026-05-28 16:11:12,950 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:11:29,619 | INFO | __main__ | Streamlit research requested | chars=500 | k=5
+2026-05-28 16:11:29,619 | INFO | app.workflow.langgraph_flow | Research query started | chars=500 | k=5
+2026-05-28 16:11:29,620 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 5: Consumer Behaviour\nScenario: An Indian household is looking to buy a new car. The father is concerned about "fuel economy" (Functional Need), while the college-going son is pushing for a model that offers "social status" and the "latest features" (Social/Psychological Need).\n\nQuestion: How do these conflicting needs influence the "Evaluation of Alternatives" stage of their decision-making process? As a marketer, how would you design an advertisement to reconcile these two distinct needs?' | refined='Unit 5: Consumer Behaviour Scenario: An Indian household is looking to buy a new car. The father is concerned about "fuel economy" (Functional Need), while the college-going son is pushing for a model that offers "social status" and the "latest features" (Social/Psychological Need). Question: How do these conflicting needs influence the "Evaluation of Alternatives" stage of their decision-making process? As a marketer, how would you design an advertisement to reconcile these two distinct needs?'
+2026-05-28 16:11:30,829 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1090', 'Principles-of-Marketing-1613761555.pdf#1647', 'Principles-of-Marketing-1613761555.pdf#853']
+2026-05-28 16:11:30,830 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:11:31,748 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=918 | citations=5
+2026-05-28 16:11:31,749 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:13:13,916 | INFO | __main__ | Streamlit research requested | chars=548 | k=5
+2026-05-28 16:13:13,917 | INFO | app.workflow.langgraph_flow | Research query started | chars=548 | k=5
+2026-05-28 16:13:13,919 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 4: Marketing Channel Management\nScenario: A luxury watch manufacturer currently sells exclusively through high-end retailers (Indirect Channel). They are considering opening their own website and factory outlets to sell directly to consumers (Direct Channel).\n\nQuestion: This transition to a Hybrid Channel model is likely to create "Channel Conflict". Identify the specific source of conflict (e.g., pricing policies or territory disputes) and propose a strategy to resolve it while maintaining the relationship with existing retail partners.' | refined='Unit 4: Marketing Channel Management Scenario: A luxury watch manufacturer currently sells exclusively through high-end retailers (Indirect Channel). They are considering opening their own website and factory outlets to sell directly to consumers (Direct Channel). Question: This transition to a Hybrid Channel model is likely to create "Channel Conflict". Identify the specific source of conflict (e.g., pricing policies or territory disputes) and propose a strategy to resolve it while maintaining the relationship with existing retail partners.'
+2026-05-28 16:13:15,016 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#121', 'Fundamentals_of_Marketing.pdf#420', 'Principles-of-Marketing-1613761555.pdf#1187']
+2026-05-28 16:13:15,025 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:13:16,448 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=656 | citations=5
+2026-05-28 16:13:16,449 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:13:35,360 | INFO | __main__ | Streamlit research requested | chars=495 | k=5
+2026-05-28 16:13:35,360 | INFO | app.workflow.langgraph_flow | Research query started | chars=495 | k=5
+2026-05-28 16:13:35,361 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 3: Product Concepts\nScenario: A consumer electronics firm has a flagship smartphone that is currently in the Maturity Stage of the Product Life Cycle (PLC). Sales growth is stagnating, and competitors are launching cheaper alternatives.\n\nQuestion: According to the PLC model, what are the strategic risks of keeping this product in the maturity stage without innovation? How can the "New Product Development Process" be applied here to prevent the product from entering the "Decline Stage"?' | refined='Unit 3: Product Concepts Scenario: A consumer electronics firm has a flagship smartphone that is currently in the Maturity Stage of the Product Life Cycle (PLC). Sales growth is stagnating, and competitors are launching cheaper alternatives. Question: According to the PLC model, what are the strategic risks of keeping this product in the maturity stage without innovation? How can the "New Product Development Process" be applied here to prevent the product from entering the "Decline Stage"?'
+2026-05-28 16:13:36,935 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1103', 'Fundamentals_of_Marketing.pdf#87', 'Fundamentals_of_Marketing.pdf#92']
+2026-05-28 16:13:36,936 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:13:38,159 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=1113 | citations=5
+2026-05-28 16:13:38,159 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:14:04,408 | INFO | __main__ | Streamlit research requested | chars=572 | k=5
+2026-05-28 16:14:04,409 | INFO | app.workflow.langgraph_flow | Research query started | chars=572 | k=5
+2026-05-28 16:14:04,409 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 2: Market Segmentation\nScenario: A retail chain wants to launch a new line of premium organic health foods in a diverse city. They are deciding between Demographic Segmentation (based on income) and Behavioural Segmentation (based on benefits sought, such as "health-conscious").\n\nQuestion: Based on the criteria for selecting target segments, which segmentation strategy would better ensure "compatibility with the organisation\'s objectives" if the brand aims to establish high customer loyalty? Justify your answer using the definitions of behavioural segmentation.' | refined='Unit 2: Market Segmentation Scenario: A retail chain wants to launch a new line of premium organic health foods in a diverse city. They are deciding between Demographic Segmentation (based on income) and Behavioural Segmentation (based on benefits sought, such as "health-conscious"). Question: Based on the criteria for selecting target segments, which segmentation strategy would better ensure "compatibility with the organisation\'s objectives" if the brand aims to establish high customer loyalty? Justify your answer using the definitions of behavioural segmentation.'
+2026-05-28 16:14:05,463 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#56', 'Fundamentals_of_Marketing.pdf#55', 'Fundamentals_of_Marketing.pdf#442']
+2026-05-28 16:14:05,464 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:14:06,522 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=668 | citations=5
+2026-05-28 16:14:06,523 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:14:23,906 | INFO | __main__ | Streamlit research requested | chars=561 | k=5
+2026-05-28 16:14:23,907 | INFO | app.workflow.langgraph_flow | Research query started | chars=561 | k=5
+2026-05-28 16:14:23,908 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 1: Introduction to Marketing Concepts\nScenario: A company has historically operated under the Production Concept (focusing on low cost and high availability). They are now launching an innovative, eco-friendly product but are finding it difficult to sell because consumers are unaware of its environmental benefits.\n\nQuestion: Using the "Selling vs. Marketing" distinction, how should the company shift its approach? Should they focus on aggressive sales tactics or a new marketing-oriented strategy? Explain the potential impact on their brand reputation.' | refined='Unit 1: Introduction to Marketing Concepts Scenario: A company has historically operated under the Production Concept (focusing on low cost and high availability). They are now launching an innovative, eco-friendly product but are finding it difficult to sell because consumers are unaware of its environmental benefits. Question: Using the "Selling vs. Marketing" distinction, how should the company shift its approach? Should they focus on aggressive sales tactics or a new marketing-oriented strategy? Explain the potential impact on their brand reputation.'
+2026-05-28 16:14:24,987 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1260', 'Principles-of-Marketing-1613761555.pdf#1187', 'Principles-of-Marketing-1613761555.pdf#552']
+2026-05-28 16:14:24,989 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:14:25,781 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=983 | citations=5
+2026-05-28 16:14:25,782 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:14:51,279 | INFO | __main__ | Streamlit research requested | chars=23 | k=5
+2026-05-28 16:14:51,280 | INFO | app.workflow.langgraph_flow | Research query started | chars=23 | k=5
+2026-05-28 16:14:51,281 | INFO | app.workflow.langgraph_flow | Query refined | original='what is dict in python ' | refined='what is dict in python'
+2026-05-28 16:14:52,707 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 16:14:52,708 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 16:14:52,708 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 16:15:35,822 | INFO | __main__ | Streamlit research requested | chars=572 | k=5
+2026-05-28 16:15:35,823 | INFO | app.workflow.langgraph_flow | Research query started | chars=572 | k=5
+2026-05-28 16:15:35,824 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 2: Market Segmentation\nScenario: A retail chain wants to launch a new line of premium organic health foods in a diverse city. They are deciding between Demographic Segmentation (based on income) and Behavioural Segmentation (based on benefits sought, such as "health-conscious").\n\nQuestion: Based on the criteria for selecting target segments, which segmentation strategy would better ensure "compatibility with the organisation\'s objectives" if the brand aims to establish high customer loyalty? Justify your answer using the definitions of behavioural segmentation.' | refined='Unit 2: Market Segmentation Scenario: A retail chain wants to launch a new line of premium organic health foods in a diverse city. They are deciding between Demographic Segmentation (based on income) and Behavioural Segmentation (based on benefits sought, such as "health-conscious"). Question: Based on the criteria for selecting target segments, which segmentation strategy would better ensure "compatibility with the organisation\'s objectives" if the brand aims to establish high customer loyalty? Justify your answer using the definitions of behavioural segmentation.'
+2026-05-28 16:15:37,088 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Fundamentals_of_Marketing.pdf#56', 'Fundamentals_of_Marketing.pdf#55', 'Fundamentals_of_Marketing.pdf#442']
+2026-05-28 16:15:37,089 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:15:38,172 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=668 | citations=5
+2026-05-28 16:15:38,173 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 16:15:57,145 | INFO | __main__ | Streamlit research requested | chars=495 | k=5
+2026-05-28 16:15:57,146 | INFO | app.workflow.langgraph_flow | Research query started | chars=495 | k=5
+2026-05-28 16:15:57,147 | INFO | app.workflow.langgraph_flow | Query refined | original='Unit 3: Product Concepts\nScenario: A consumer electronics firm has a flagship smartphone that is currently in the Maturity Stage of the Product Life Cycle (PLC). Sales growth is stagnating, and competitors are launching cheaper alternatives.\n\nQuestion: According to the PLC model, what are the strategic risks of keeping this product in the maturity stage without innovation? How can the "New Product Development Process" be applied here to prevent the product from entering the "Decline Stage"?' | refined='Unit 3: Product Concepts Scenario: A consumer electronics firm has a flagship smartphone that is currently in the Maturity Stage of the Product Life Cycle (PLC). Sales growth is stagnating, and competitors are launching cheaper alternatives. Question: According to the PLC model, what are the strategic risks of keeping this product in the maturity stage without innovation? How can the "New Product Development Process" be applied here to prevent the product from entering the "Decline Stage"?'
+2026-05-28 16:15:58,902 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1103', 'Fundamentals_of_Marketing.pdf#87', 'Fundamentals_of_Marketing.pdf#92']
+2026-05-28 16:15:58,903 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 16:15:59,986 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=1113 | citations=5
+2026-05-28 16:15:59,986 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 20:13:01,949 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:13:02,058 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:13:13,727 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=2010 | vector_store=data\faiss_index\store.json
+2026-05-28 20:13:13,729 | INFO | __main__ | Streamlit workflow created | indexed_sections=2010
+2026-05-28 20:14:42,112 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:14:42,113 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:14:45,162 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=2010 | vector_store=data\faiss_index\store.json
+2026-05-28 20:14:45,163 | INFO | __main__ | Streamlit workflow created | indexed_sections=2010
+2026-05-28 20:15:52,681 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:15:52,681 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:15:54,684 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=2010 | vector_store=data\faiss_index\store.json
+2026-05-28 20:15:54,685 | INFO | __main__ | Streamlit workflow created | indexed_sections=2010
+2026-05-28 20:16:25,865 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:16:25,866 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:16:29,210 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=2010 | vector_store=data\faiss_index\store.json
+2026-05-28 20:16:29,211 | INFO | __main__ | Streamlit workflow created | indexed_sections=2010
+2026-05-28 20:16:44,032 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:16:45,501 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\AI_Agents_Managing_Research_Profiles_Rahul_Kumar_2026.pdf
+2026-05-28 20:16:45,920 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\AI_Agents_Managing_Research_Profiles_Rahul_Kumar_2026.pdf | documents=1 | chunks=35
+2026-05-28 20:16:45,946 | INFO | app.workflow.langgraph_flow | Indexed 35 chunks from D:\ai-support-automation\data\uploaded_docs\AI_Agents_Managing_Research_Profiles_Rahul_Kumar_2026.pdf
+2026-05-28 20:16:45,946 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Deman_forecasting_system.pdf
+2026-05-28 20:16:46,531 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Deman_forecasting_system.pdf | documents=1 | chunks=10
+2026-05-28 20:16:46,545 | INFO | app.workflow.langgraph_flow | Indexed 10 chunks from D:\ai-support-automation\data\uploaded_docs\Deman_forecasting_system.pdf
+2026-05-28 20:16:46,546 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf
+2026-05-28 20:16:53,493 | INFO | __main__ | Streamlit upload saved | filename=Basic Concept of Disease ppt.pdf | bytes=1176404
+2026-05-28 20:16:53,522 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Basic Concept of Disease ppt.pdf
+2026-05-28 20:16:54,328 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf | documents=1 | chunks=471
+2026-05-28 20:16:54,452 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Basic Concept of Disease ppt.pdf | documents=1 | chunks=10
+2026-05-28 20:16:54,539 | INFO | app.workflow.langgraph_flow | Indexed 10 chunks from D:\ai-support-automation\data\uploaded_docs\Basic Concept of Disease ppt.pdf
+2026-05-28 20:16:54,739 | INFO | app.workflow.langgraph_flow | Indexed 471 chunks from D:\ai-support-automation\data\uploaded_docs\Fundamentals_of_Marketing.pdf
+2026-05-28 20:16:54,741 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\langchain.pdf
+2026-05-28 20:16:55,131 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\langchain.pdf | documents=1 | chunks=54
+2026-05-28 20:16:55,221 | INFO | app.workflow.langgraph_flow | Indexed 54 chunks from D:\ai-support-automation\data\uploaded_docs\langchain.pdf
+2026-05-28 20:16:55,222 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf
+2026-05-28 20:17:01,582 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf | documents=1 | chunks=1539
+2026-05-28 20:17:02,395 | INFO | app.workflow.langgraph_flow | Indexed 1539 chunks from D:\ai-support-automation\data\uploaded_docs\Principles-of-Marketing-1613761555.pdf
+2026-05-28 20:17:02,396 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\sales.csv
+2026-05-28 20:17:02,987 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\sales.csv | documents=1 | chunks=7861
+2026-05-28 20:17:04,621 | INFO | app.workflow.langgraph_flow | Indexed 7861 chunks from D:\ai-support-automation\data\uploaded_docs\sales.csv
+2026-05-28 20:17:04,624 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Tutorial_EDIT.pdf
+2026-05-28 20:17:08,047 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Tutorial_EDIT.pdf | documents=1 | chunks=460
+2026-05-28 20:17:09,151 | INFO | app.workflow.langgraph_flow | Indexed 460 chunks from D:\ai-support-automation\data\uploaded_docs\Tutorial_EDIT.pdf
+2026-05-28 20:17:35,451 | INFO | __main__ | Streamlit upload saved | filename=digestive system part3.pdf | bytes=2579919
+2026-05-28 20:17:35,451 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\digestive system part3.pdf
+2026-05-28 20:17:35,494 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\digestive system part3.pdf | documents=1 | chunks=0
+2026-05-28 20:17:36,987 | INFO | app.workflow.langgraph_flow | Indexed 0 chunks from D:\ai-support-automation\data\uploaded_docs\digestive system part3.pdf
+2026-05-28 20:17:36,990 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=0
+2026-05-28 20:19:30,080 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:19:30,080 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:19:34,073 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10440 | vector_store=data\faiss_index\store.json
+2026-05-28 20:19:34,074 | INFO | __main__ | Streamlit workflow created | indexed_sections=10440
+2026-05-28 20:19:59,934 | INFO | __main__ | Streamlit upload saved | filename=cell biology .pdf | bytes=16512616
+2026-05-28 20:19:59,934 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\cell biology .pdf
+2026-05-28 20:19:59,988 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\cell biology .pdf | documents=1 | chunks=0
+2026-05-28 20:20:01,713 | INFO | app.workflow.langgraph_flow | Indexed 0 chunks from D:\ai-support-automation\data\uploaded_docs\cell biology .pdf
+2026-05-28 20:20:01,714 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=0
+2026-05-28 20:21:27,946 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:21:27,947 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:21:32,294 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=10440 | vector_store=data\faiss_index\store.json
+2026-05-28 20:21:32,295 | INFO | __main__ | Streamlit workflow created | indexed_sections=10440
+2026-05-28 20:24:51,498 | INFO | __main__ | Streamlit upload saved | filename=Thyroid Gland.pdf | bytes=551740
+2026-05-28 20:24:51,503 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:24:51,906 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf | documents=1 | chunks=6
+2026-05-28 20:24:52,410 | INFO | app.workflow.langgraph_flow | Indexed 6 chunks from D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:24:52,412 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=6
+2026-05-28 20:25:59,724 | INFO | __main__ | Streamlit research requested | chars=115 | k=5
+2026-05-28 20:25:59,724 | INFO | app.workflow.langgraph_flow | Research query started | chars=115 | k=5
+2026-05-28 20:25:59,729 | INFO | app.workflow.langgraph_flow | Query refined | original='why is iron defiencicy more likely to cause enlargement of thyroide gland rather then complete absence of hormones?' | refined='why is iron defiencicy more likely to cause enlargement of thyroide gland rather then complete absence of hormones?'
+2026-05-28 20:26:00,888 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['Principles-of-Marketing-1613761555.pdf#1997', 'Principles-of-Marketing-1613761555.pdf#541', 'Principles-of-Marketing-1613761555.pdf#1800']
+2026-05-28 20:26:00,889 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:26:04,746 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=733 | citations=6
+2026-05-28 20:26:04,747 | INFO | __main__ | Streamlit research completed | grounded=False | citations=6
+2026-05-28 20:26:41,458 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:26:41,460 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:26:46,240 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=2016 | vector_store=data\faiss_index\store.json
+2026-05-28 20:26:46,241 | INFO | __main__ | Streamlit workflow created | indexed_sections=2016
+2026-05-28 20:26:46,257 | INFO | __main__ | Streamlit upload saved | filename=Thyroid Gland.pdf | bytes=551740
+2026-05-28 20:26:46,258 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:26:46,525 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf | documents=1 | chunks=6
+2026-05-28 20:26:46,918 | INFO | app.workflow.langgraph_flow | Indexed 6 chunks from D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:26:46,920 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=6
+2026-05-28 20:26:46,943 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:27:57,486 | INFO | __main__ | Streamlit upload saved | filename=Thyroid Gland.pdf | bytes=551740
+2026-05-28 20:27:57,487 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:27:57,779 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf | documents=1 | chunks=6
+2026-05-28 20:27:57,789 | INFO | app.workflow.langgraph_flow | Indexed 6 chunks from D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:27:58,159 | INFO | __main__ | Streamlit research requested | chars=26 | k=5
+2026-05-28 20:27:58,160 | INFO | app.workflow.langgraph_flow | Research query started | chars=26 | k=5
+2026-05-28 20:27:58,161 | INFO | app.workflow.langgraph_flow | Query refined | original='location of thyroid gland ' | refined='location of thyroid gland'
+2026-05-28 20:27:58,166 | INFO | app.workflow.langgraph_flow | Retrieved 1 chunks | top_sources=['Thyroid Gland.pdf#0']
+2026-05-28 20:27:58,167 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:28:00,185 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=274 | citations=1
+2026-05-28 20:28:00,187 | INFO | __main__ | Streamlit research completed | grounded=True | citations=1
+2026-05-28 20:28:15,105 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:28:15,105 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:28:17,948 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=6 | vector_store=data\faiss_index\store.json
+2026-05-28 20:28:17,949 | INFO | __main__ | Streamlit workflow created | indexed_sections=6
+2026-05-28 20:28:17,954 | INFO | __main__ | Streamlit upload saved | filename=Thyroid Gland.pdf | bytes=551740
+2026-05-28 20:28:17,954 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:28:18,214 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf | documents=1 | chunks=6
+2026-05-28 20:28:18,221 | INFO | app.workflow.langgraph_flow | Indexed 6 chunks from D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:28:18,222 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=6
+2026-05-28 20:28:18,227 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:28:22,048 | INFO | __main__ | Streamlit upload saved | filename=Thyroid Gland.pdf | bytes=551740
+2026-05-28 20:28:22,049 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:28:22,328 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf | documents=1 | chunks=6
+2026-05-28 20:28:22,335 | INFO | app.workflow.langgraph_flow | Indexed 6 chunks from D:\ai-support-automation\data\uploaded_docs\Thyroid Gland.pdf
+2026-05-28 20:28:22,337 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=6
+2026-05-28 20:28:24,958 | INFO | __main__ | Streamlit research requested | chars=26 | k=10
+2026-05-28 20:28:24,959 | INFO | app.workflow.langgraph_flow | Research query started | chars=26 | k=10
+2026-05-28 20:28:24,960 | INFO | app.workflow.langgraph_flow | Query refined | original='location of thyroid gland ' | refined='location of thyroid gland'
+2026-05-28 20:28:24,968 | INFO | app.workflow.langgraph_flow | Retrieved 1 chunks | top_sources=['Thyroid Gland.pdf#0']
+2026-05-28 20:28:24,969 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:28:26,048 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=274 | citations=1
+2026-05-28 20:28:26,048 | INFO | __main__ | Streamlit research completed | grounded=True | citations=1
+2026-05-28 20:30:21,501 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:30:21,502 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:30:22,325 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:30:22,402 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:30:22,403 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:31:16,297 | INFO | __main__ | Streamlit research requested | chars=51 | k=10
+2026-05-28 20:31:16,298 | INFO | app.workflow.langgraph_flow | Research query started | chars=51 | k=10
+2026-05-28 20:31:16,298 | INFO | app.workflow.langgraph_flow | Query refined | original='describe the process of thyroid hormon biosynthesis' | refined='describe the process of thyroid hormon biosynthesis'
+2026-05-28 20:31:16,382 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['9781405136488_4_008.pdf#20', '9781405136488_4_008.pdf#49', '9781405136488_4_008.pdf#7']
+2026-05-28 20:31:16,384 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:31:17,981 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=777 | citations=10
+2026-05-28 20:31:17,981 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 20:31:45,607 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:31:50,193 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:31:50,194 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:31:50,977 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:31:51,042 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:31:51,044 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:32:02,265 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:32:02,265 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:32:05,054 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=94 | vector_store=data\faiss_index\store.json
+2026-05-28 20:32:05,054 | INFO | __main__ | Streamlit workflow created | indexed_sections=94
+2026-05-28 20:32:05,059 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:32:05,060 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:05,724 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:32:05,854 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:05,855 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:32:05,865 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:32:09,020 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:32:09,020 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:09,819 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:32:09,879 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:09,881 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:32:09,890 | INFO | __main__ | Streamlit research requested | chars=51 | k=5
+2026-05-28 20:32:09,890 | INFO | app.workflow.langgraph_flow | Research query started | chars=51 | k=5
+2026-05-28 20:32:09,891 | INFO | app.workflow.langgraph_flow | Query refined | original='describe the process of thyroid hormon biosynthesis' | refined='describe the process of thyroid hormon biosynthesis'
+2026-05-28 20:32:09,945 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['9781405136488_4_008.pdf#14', '9781405136488_4_008.pdf#43', '9781405136488_4_008.pdf#1']
+2026-05-28 20:32:09,946 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:32:11,128 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=777 | citations=5
+2026-05-28 20:32:11,128 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5
+2026-05-28 20:32:29,843 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:32:37,628 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:32:37,629 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:32:40,288 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=0 | vector_store=data\faiss_index\store.json
+2026-05-28 20:32:40,288 | INFO | __main__ | Streamlit workflow created | indexed_sections=0
+2026-05-28 20:32:40,293 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:32:40,294 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:40,963 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:32:41,020 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:32:41,021 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:32:41,030 | INFO | __main__ | Streamlit research requested | chars=51 | k=10
+2026-05-28 20:32:41,031 | INFO | app.workflow.langgraph_flow | Research query started | chars=51 | k=10
+2026-05-28 20:32:41,032 | INFO | app.workflow.langgraph_flow | Query refined | original='describe the process of thyroid hormon biosynthesis' | refined='describe the process of thyroid hormon biosynthesis'
+2026-05-28 20:32:41,084 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['9781405136488_4_008.pdf#14', '9781405136488_4_008.pdf#43', '9781405136488_4_008.pdf#1']
+2026-05-28 20:32:41,085 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:32:42,388 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=777 | citations=10
+2026-05-28 20:32:42,389 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 20:35:19,601 | INFO | __main__ | Streamlit research requested | chars=51 | k=10
+2026-05-28 20:35:19,601 | INFO | app.workflow.langgraph_flow | Research query started | chars=51 | k=10
+2026-05-28 20:35:19,602 | INFO | app.workflow.langgraph_flow | Query refined | original='cause of Hypothyroidism and maintions two symtomps?' | refined='cause of Hypothyroidism and maintions two symtomps?'
+2026-05-28 20:35:19,677 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['9781405136488_4_008.pdf#46', '9781405136488_4_008.pdf#44', '9781405136488_4_008.pdf#45']
+2026-05-28 20:35:19,680 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:35:21,201 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=922 | citations=10
+2026-05-28 20:35:21,202 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 20:35:25,729 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:35:41,414 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:35:41,415 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:35:44,005 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=0 | vector_store=data\faiss_index\store.json
+2026-05-28 20:35:44,006 | INFO | __main__ | Streamlit workflow created | indexed_sections=0
+2026-05-28 20:35:44,011 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:35:44,012 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:35:44,725 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:35:44,799 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:35:44,800 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:35:44,808 | INFO | __main__ | Streamlit research requested | chars=51 | k=10
+2026-05-28 20:35:44,809 | INFO | app.workflow.langgraph_flow | Research query started | chars=51 | k=10
+2026-05-28 20:35:44,810 | INFO | app.workflow.langgraph_flow | Query refined | original='cause of Hypothyroidism and maintions two symtomps?' | refined='cause of Hypothyroidism and maintions two symtomps?'
+2026-05-28 20:35:44,881 | INFO | app.workflow.langgraph_flow | Retrieved 10 chunks | top_sources=['9781405136488_4_008.pdf#46', '9781405136488_4_008.pdf#44', '9781405136488_4_008.pdf#45']
+2026-05-28 20:35:44,882 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:35:46,172 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=922 | citations=10
+2026-05-28 20:35:46,173 | INFO | __main__ | Streamlit research completed | grounded=True | citations=10
+2026-05-28 20:36:46,315 | INFO | __main__ | Streamlit research requested | chars=15 | k=10
+2026-05-28 20:36:46,316 | INFO | app.workflow.langgraph_flow | Research query started | chars=15 | k=10
+2026-05-28 20:36:46,317 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is thyroid' | refined='whta is thyroid'
+2026-05-28 20:36:46,377 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:36:46,378 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:36:46,380 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:36:48,872 | INFO | __main__ | Streamlit research requested | chars=15 | k=10
+2026-05-28 20:36:48,872 | INFO | app.workflow.langgraph_flow | Research query started | chars=15 | k=10
+2026-05-28 20:36:48,873 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is thyroid' | refined='whta is thyroid'
+2026-05-28 20:36:49,000 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:36:49,002 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:36:49,009 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:37:05,388 | INFO | __main__ | Streamlit research requested | chars=22 | k=10
+2026-05-28 20:37:05,388 | INFO | app.workflow.langgraph_flow | Research query started | chars=22 | k=10
+2026-05-28 20:37:05,390 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is thyroid glannd' | refined='whta is thyroid glannd'
+2026-05-28 20:37:05,461 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:37:05,463 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:37:05,465 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:37:10,676 | INFO | __main__ | Streamlit research requested | chars=21 | k=10
+2026-05-28 20:37:10,677 | INFO | app.workflow.langgraph_flow | Research query started | chars=21 | k=10
+2026-05-28 20:37:10,679 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is thyroid gland' | refined='whta is thyroid gland'
+2026-05-28 20:37:10,755 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:37:10,755 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:37:10,755 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:37:14,143 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:37:18,590 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:37:18,591 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:37:19,276 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:37:19,319 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:37:19,521 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:37:19,707 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:37:20,625 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:37:20,704 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:37:20,705 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:37:20,714 | INFO | __main__ | Streamlit research requested | chars=22 | k=10
+2026-05-28 20:37:20,714 | INFO | app.workflow.langgraph_flow | Research query started | chars=22 | k=10
+2026-05-28 20:37:20,714 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is thyroid gland?' | refined='whta is thyroid gland?'
+2026-05-28 20:37:20,808 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:37:20,809 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:37:20,810 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:38:41,061 | INFO | __main__ | Streamlit research requested | chars=26 | k=10
+2026-05-28 20:38:41,062 | INFO | app.workflow.langgraph_flow | Research query started | chars=26 | k=10
+2026-05-28 20:38:41,063 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is Iodine deficiency?' | refined='whta is Iodine deficiency?'
+2026-05-28 20:38:41,170 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:38:41,172 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:38:41,172 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:38:44,757 | INFO | __main__ | Streamlit clear index requested
+2026-05-28 20:38:47,978 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:38:47,979 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:38:48,926 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:38:48,999 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:38:49,001 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:39:00,224 | INFO | system | Streamlit startup | python=3.13.2 | platform=Windows-11-10.0.26220-SP0 | cwd=D:\ai-support-automation\frontend
+2026-05-28 20:39:00,226 | INFO | system | Streamlit config | provider=gemini | gemini_key_configured=True | openai_key_configured=True | vector_store=data/faiss_index | upload_dir=data/uploaded_docs
+2026-05-28 20:39:03,339 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=94 | vector_store=data\faiss_index\store.json
+2026-05-28 20:39:04,829 | INFO | app.workflow.langgraph_flow | ResearchWorkflow initialized | indexed_chunks=94 | vector_store=data\faiss_index\store.json
+2026-05-28 20:39:04,830 | INFO | __main__ | Streamlit workflow created | indexed_sections=94
+2026-05-28 20:39:04,835 | INFO | __main__ | Streamlit upload saved | filename=9781405136488_4_008.pdf | bytes=983536
+2026-05-28 20:39:04,836 | INFO | app.workflow.langgraph_flow | Loading document: D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:39:05,544 | INFO | app.workflow.langgraph_flow | Document loaded | path=D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf | documents=1 | chunks=94
+2026-05-28 20:39:05,622 | INFO | app.workflow.langgraph_flow | Indexed 94 chunks from D:\ai-support-automation\data\uploaded_docs\9781405136488_4_008.pdf
+2026-05-28 20:39:05,623 | INFO | __main__ | Streamlit upload indexing complete | files=1 | chunks=94
+2026-05-28 20:39:05,632 | INFO | __main__ | Streamlit research requested | chars=26 | k=5
+2026-05-28 20:39:05,633 | INFO | app.workflow.langgraph_flow | Research query started | chars=26 | k=5
+2026-05-28 20:39:05,634 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is Iodine deficiency?' | refined='whta is Iodine deficiency?'
+2026-05-28 20:39:05,730 | INFO | app.workflow.langgraph_flow | Retrieved 0 chunks | top_sources=[]
+2026-05-28 20:39:05,731 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=False | answer_chars=63 | citations=0
+2026-05-28 20:39:05,731 | INFO | __main__ | Streamlit research completed | grounded=False | citations=0
+2026-05-28 20:43:11,348 | INFO | __main__ | Streamlit research requested | chars=50 | k=5
+2026-05-28 20:43:11,506 | INFO | app.workflow.langgraph_flow | Research query started | chars=50 | k=5
+2026-05-28 20:43:11,551 | INFO | app.workflow.langgraph_flow | Query refined | original='whta is Regulation of thyroid hormone\nbiosynthesis' | refined='whta is Regulation of thyroid hormone biosynthesis'
+2026-05-28 20:43:12,591 | INFO | app.workflow.langgraph_flow | Retrieved 5 chunks | top_sources=['9781405136488_4_008.pdf#0', '9781405136488_4_008.pdf#25', '9781405136488_4_008.pdf#19']
+2026-05-28 20:43:12,623 | INFO | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-05-28 20:43:15,882 | INFO | app.workflow.langgraph_flow | Research query finished | grounded=True | answer_chars=1183 | citations=5
+2026-05-28 20:43:15,882 | INFO | __main__ | Streamlit research completed | grounded=True | citations=5

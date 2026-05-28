@@ -1,0 +1,2 @@
+[server]
+folderWatchBlacklist = ["logs", "data/faiss_index", "data/uploaded_docs"]
